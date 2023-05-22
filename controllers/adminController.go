@@ -86,7 +86,17 @@ func ListOrders(c *fiber.Ctx) error {
 }
 
 func C2CTradeHistory(c *fiber.Ctx) error {
-	return c.JSON(fiber.Map{"status": "Done",
-		"Message": binanceTest.TestC2CTradeHistory(),
+	client := binance.NewClient(apiKey, secretKey)
+	result, err := client.NewC2CTradeHistoryService().Do(context.Background())
+	if err != nil {
+		fmt.Println(err)
+		return c.JSON(fiber.Map{
+			"status":  "failed",
+			"message": err.Error(),
+		})
+	}
+	return c.JSON(fiber.Map{
+		"status":  "created",
+		"message": result,
 	})
 }

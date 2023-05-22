@@ -13,4 +13,5 @@ func Setup(app *fiber.App) {
 	app.Get("/CreateOrder", controllers.CreateOrder)
 	app.Get("/ListTickerPrices", controllers.ListTickerPrices)
 	app.Get("/ListOrder", controllers.ListOrders)
+	app.Get("/C2CTradeHistory", controllers.C2CTradeHistory)
 }
