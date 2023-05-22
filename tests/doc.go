@@ -1,2 +1,2 @@
-// package binanceTest is a Golang SDK for binance APIs.
-package binanceTest
+// package BinanceTest is a Golang SDK for binance APIs.
+package BinanceTest

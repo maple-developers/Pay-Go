@@ -1,4 +1,4 @@
-package binanceTest
+package BinanceTest
 
 import (
 	"encoding/json"
