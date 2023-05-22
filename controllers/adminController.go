@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"Pay-Go/binanceTest"
 	"context"
 	"fmt"
 
@@ -87,6 +88,6 @@ func ListOrders(c *fiber.Ctx) error {
 
 func C2CTradeHistory(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{"status": "Done",
-		"Message": binance.TestC2CTradeHistory(),
+		"Message": binanceTest.TestC2CTradeHistory(),
 	})
 }
