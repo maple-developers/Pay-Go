@@ -1,7 +1,6 @@
 package main
 
 import (
-	/* 	"Pay-Go/database"*/
 	"Pay-Go/database"
 	"Pay-Go/routes"
 	"fmt"

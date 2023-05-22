@@ -1,4 +1,4 @@
-package BinanceTest
+package Tests
 
 import (
 	"testing"
