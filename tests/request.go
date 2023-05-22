@@ -1,6 +1,7 @@
-package binance
+package binanceTest
 
 import (
+	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"

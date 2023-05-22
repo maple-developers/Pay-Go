@@ -1,4 +1,4 @@
-package binance
+package binanceTest
 
 import (
 	"net/http"

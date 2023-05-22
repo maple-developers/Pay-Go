@@ -7,7 +7,7 @@
 ** @Last modified by:		Tbouder
 *******************************************************************************/
 
-package binance
+package Tests
 
 import (
 	"context"

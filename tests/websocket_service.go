@@ -1,10 +1,11 @@
-package binance
+package binanceTest
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
+	"encoding/json"
 	stdjson "encoding/json"
 )
 

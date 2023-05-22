@@ -7,10 +7,11 @@
 ** @Last modified by:
 *******************************************************************************/
 
-package binance
+package binanceTest
 
 import (
 	"context"
+	"encoding/json"
 )
 
 // CreateUserUniversalTransferService submits a transfer request.

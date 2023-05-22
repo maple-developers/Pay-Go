@@ -1,8 +1,9 @@
-package binance
+package binanceTest
 
 import (
-	"github.com/stretchr/testify/suite"
 	"testing"
+
+	"github.com/stretchr/testify/suite"
 )
 
 type rebateServiceTestSuite struct {

@@ -1,7 +1,8 @@
-package binance
+package binanceTest
 
 import (
 	"context"
+	"encoding/json"
 	stdjson "encoding/json"
 	"net/http"
 )

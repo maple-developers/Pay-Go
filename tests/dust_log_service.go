@@ -7,10 +7,11 @@
 ** @Last modified by:		Tbouder
 *******************************************************************************/
 
-package binance
+package binanceTest
 
 import (
 	"context"
+	"encoding/json"
 	"net/http"
 )
 

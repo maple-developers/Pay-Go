@@ -1,10 +1,11 @@
-package binance
+package binanceTest
 
 import (
 	"context"
+	"testing"
+
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"testing"
 )
 
 type getBNBBurnServiceTestSuite struct {
